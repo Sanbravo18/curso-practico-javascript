@@ -1,0 +1,120 @@
+body {
+    background: linear-gradient(#1d4552 , #392945);
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+    color: aliceblue;
+    
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.header__description{
+    color: #ace7ff;
+}
+
+.centercontainers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);
+}
+
+.Cuadrado{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    padding: 30px  ;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+    margin: 30px;
+}
+.Cuadrado__form{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+}
+
+.Triangulo{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    padding: 30px  ;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.Triangulo__form{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+}
+
+.Circulo{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    padding: 30px  ;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.Circulo__form{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+}
+
+.input{
+    background-color: transparent;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 2px solid white;
+    color: aliceblue;
+    font-family: 'Muli', sans-serif;
+    margin-bottom: 20px;
+    padding: 0px;
+    outline: none;
+    height: 50px;
+}
+
+
+.button {
+    background-color: rgba(255,255,255,0.1);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}
+
+.footer{
+    background-color: #392945 ;
+}  
