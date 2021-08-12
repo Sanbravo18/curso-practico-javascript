@@ -31,7 +31,7 @@ body {
     border-radius: 40px;
     color: white;
     padding: 30px  ;
-    width: 300px;
+    width: 250px;
     display: flex;
     align-items: center;
     justify-content:space-around;
@@ -51,7 +51,7 @@ body {
     border-radius: 40px;
     color: white;
     padding: 30px  ;
-    width: 300px;
+    width: 250px;
     display: flex;
     align-items: center;
     justify-content:space-around;
@@ -72,7 +72,7 @@ body {
     border-radius: 40px;
     color: white;
     padding: 30px  ;
-    width: 300px;
+    width: 250px;
     display: flex;
     align-items: center;
     justify-content:space-around;
@@ -95,8 +95,8 @@ body {
     border-bottom: 2px solid white;
     color: aliceblue;
     font-family: 'Muli', sans-serif;
-    margin-bottom: 20px;
-    padding: 0px;
+    margin-bottom: 5px;
+    padding: 0px ;
     outline: none;
     height: 50px;
 }
