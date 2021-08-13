@@ -1,8 +1,8 @@
 body {
-    background: linear-gradient(#1d4552 , #392945);
+    background: linear-gradient(#f1fbff , #06cee9);
     margin: 0;
     font-family: 'Muli', sans-serif;
-    color: aliceblue;
+    color: #192b50;
     
 }
 
@@ -13,7 +13,7 @@ body {
     flex-direction: column;
 }
 .header__description{
-    color: #ace7ff;
+    color: #3584a3;
 }
 
 .centercontainers{
@@ -26,10 +26,10 @@ body {
 }
 
 .Cuadrado{
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 2px solid white;
+    background-color: #FFAF02;
+    border: 2px solid #192b50;
     border-radius: 40px;
-    color: white;
+    color: #192b50;
     padding: 30px  ;
     width: 300px;
     display: flex;
@@ -46,10 +46,10 @@ body {
 }
 
 .Triangulo{
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 2px solid white;
+    background-color: #FFAF02;
+    border: 2px solid #192b50;
     border-radius: 40px;
-    color: white;
+    color: #192b50;
     padding: 30px  ;
     width: 300px;
     display: flex;
@@ -67,10 +67,10 @@ body {
 }
 
 .Circulo{
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 2px solid white;
+    background-color: #FFAF02;
+    border: 2px solid #192b50;
     border-radius: 40px;
-    color: white;
+    color: #192b50;
     padding: 30px  ;
     width: 300px;
     display: flex;
@@ -92,8 +92,8 @@ body {
     border-left: 0px;
     border-right: 0px;
     border-top: 0px;
-    border-bottom: 2px solid white;
-    color: aliceblue;
+    border-bottom: 2px solid #192b50;
+    color: #192b50;
     font-family: 'Muli', sans-serif;
     margin-bottom: 5px;
     padding: 0px ;
@@ -103,10 +103,10 @@ body {
 
 
 .button {
-    background-color: rgba(255,255,255,0.1);
+    background-color: #ff130285;
     border: none;
     border-radius: 25px;
-    color: white;
+    color: #192b50;
     cursor: pointer;
     font-size: 16px;
     font-family: 'Muli', sans-serif;
