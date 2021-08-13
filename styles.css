@@ -14,6 +14,8 @@ body {
 }
 .header__description{
     color: #3584a3;
+    display: flex;
+    
 }
 
 .centercontainers{
@@ -116,5 +118,5 @@ body {
 }
 
 .footer{
-    background-color: #392945 ;
+    background-color: #06cee9 ;
 }  
