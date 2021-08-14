@@ -13,10 +13,20 @@ function calcularPrecioConDescuento(precio,descuento){
 function onClickButtonPriceDiscount(){
     const inputPrice = document.getElementById("InputPrice");
     const priceValue = inputPrice.value;
-    const InputDiscount = document.getElementById("InputDiscount");
-    const discountValue = InputDiscount.value;
+    const InputCoupon = document.getElementById("InputCoupon");
+    const couponValue = InputCoupon.value;
 
-    const precioConDescuento = calcularPrecioConDescuento(priceValue,discountValue);
+    if (!coupons.includes(couponValue)) {
+        alert("El cupón " + couponValue + "no es válido");
+     } else if (couponValue === "JuanDC_es_Batman") {
+        descuento = 15;
+     } else if (couponValue === "pero_no_le_digas_a_nadie") {
+        descuento = 30;
+     } else if (couponValue === "es_un_secreto") {
+        descuento = 25;
+     }
+
+    const precioConDescuento = calcularPrecioConDescuento(priceValue,descuento);
     const resultP = document.getElementById("ResultP");
     ResultP.innerText = "El precio con descuento son: $" + precioConDescuento;    
 }
