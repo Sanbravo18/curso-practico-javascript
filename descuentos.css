@@ -37,6 +37,10 @@ body {
     margin: 30px;
 }
 
+.calcularprecio__title{
+    text-align: center;
+}
+
 .from{
     display: flex;
     align-items: center;
@@ -44,7 +48,7 @@ body {
     flex-direction: column;
 }
 
-input{
+.Input{
     background-color: transparent;
     border-left: 0px;
     border-right: 0px;
@@ -56,6 +60,10 @@ input{
     padding: 0px ;
     outline: none;
     height: 50px;
+}
+
+.label{
+    text-align: center;
 }
 
 .button {

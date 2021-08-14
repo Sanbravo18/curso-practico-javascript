@@ -14,12 +14,12 @@
     </header>    
     <section class="centercontainer" >
         <section class="calcularprecio">
-        <h2>Calcula el precio a pagar de tus productos con descuento</h2>
+        <h2 class="calcularprecio__title">Calcula el precio a pagar de tus productos con descuento</h2>
         <form class="from">
             <input class="Input" id="InputPrice" type="number"/>
-            <label for="InputPrice">Escribe el precio de tu producto</label>
-            <input class="Input" id="InputDiscount" type="number"/>
-            <label for="InputDiscount">Escribe el descuento de tu producto</label>
+            <label class="label" for="InputPrice">Escribe el precio de tu producto</label>
+            <input class="Input" id="InputCoupon" type="text"/>
+            <label class="label" for="InputCoupon">Escribe el cupón de descuento de tu producto</label>
             <button class="button" type="button" onclick="onClickButtonPriceDiscount()">
                 Calcular precio con Descuento
             </button>
