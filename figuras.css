@@ -1,0 +1,121 @@
+body {
+    background: linear-gradient(#f1fbff , #06cee9);
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+    color: #192b50;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.header__description{
+    color: #3584a3;
+    display: flex;
+    
+}
+
+.centercontainers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);
+}
+
+.Cuadrado{
+    background-color: #FFAF02;
+    border: 2px solid #192b50;
+    border-radius: 40px;
+    color: #192b50;
+    padding: 30px  ;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+    margin: 30px;
+}
+.Cuadrado__form{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+}
+
+.Triangulo{
+    background-color: #FFAF02;
+    border: 2px solid #192b50;
+    border-radius: 40px;
+    color: #192b50;
+    padding: 30px  ;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.Triangulo__form{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+}
+
+.Circulo{
+    background-color: #FFAF02;
+    border: 2px solid #192b50;
+    border-radius: 40px;
+    color: #192b50;
+    padding: 30px  ;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.Circulo__form{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+}
+
+.input{
+    background-color: transparent;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 2px solid #192b50;
+    color: #192b50;
+    font-family: 'Muli', sans-serif;
+    margin-bottom: 5px;
+    padding: 0px ;
+    outline: none;
+    height: 50px;
+}
+
+
+.button {
+    background-color: #ff130285;
+    border: none;
+    border-radius: 25px;
+    color: #192b50;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}
+
+.footer{
+    background-color: #06cee9 ;
+}  
